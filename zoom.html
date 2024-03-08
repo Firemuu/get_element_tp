@@ -1,0 +1,41 @@
+<!DOCTYPE html><html>
+<head>
+    <link rel="stylesheet" type="text/CSS" href="zoom.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale1">
+    <title> Bouton </title>
+    <script src="zoom.js"></script>
+</head>
+<body>
+    <label id="l1">Nom</label>
+    <input id="i1" type="text" placeholder="Entre nom">
+    <button id="rien" onclick="maFonction()">Valide</button>
+    <button id="bt2" onclick="changer()">oogabooga</button>
+
+
+    
+    <p id="demo" onclick="maFonction2()">Un clic change le contenu(innerHTML)</p>
+
+    <div id="tout">
+        <div id="car1"></div>
+        <div id="car2"></div>
+        <div id="car3"></div>
+    </div>
+
+<table border="1">
+    <tr>
+        <td><img class="c1" onclick="f(this)" src="po.jpg"></td>
+        <td><img class="c1" onclick="f(this)" src="Shifu.jpeg"></td>
+        <td><img class="c1" onclick="f(this)" src="ping.jpg"></td>
+    </tr>
+    <tr>
+        <td><img class="c2" onclick="f(this)" src="ping.jpg"></td>
+        <td><img class="c2" onclick="f(this)" src="po.jpg"></td>
+        <td><img class="c2" onclick="f(this)" src="Shifu.jpeg"></td>
+    </tr>
+</table>
+<button onclick="tourner1('c1')"> Tourner cartes</button>
+<button onclick="tourner2('c2')"> Tourner cartes (2)</button>
+
+</body>
+</html>
